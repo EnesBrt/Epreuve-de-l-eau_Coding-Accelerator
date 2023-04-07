@@ -15,8 +15,10 @@ def fibonacci(n):
             a = b
             b = c
         print(c)
+
     except UnboundLocalError:
         print(-1)
+
     except ValueError:
         print(-1)
 
