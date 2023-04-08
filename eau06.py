@@ -41,10 +41,15 @@ def to_upper(string):
     print(result)
 
 
-argument = sys.argv[1]
+try:
+    argument = sys.argv[1]
 
-if isdigit(argument):
+    if isdigit(argument):
+        print("erreur.")
+        sys.exit()
+    else:
+        to_upper(argument)
+
+except IndexError:
     print("erreur.")
-else:
-    to_upper(argument)
-
+    sys.exit()
