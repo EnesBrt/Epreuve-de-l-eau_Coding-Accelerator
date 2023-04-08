@@ -15,6 +15,5 @@ try:
     argument_one = sys.argv[1]
     argument_two = sys.argv[2]
     string_in_string(argument_one, argument_two)
-
 except IndexError:
     print("erreur.")
