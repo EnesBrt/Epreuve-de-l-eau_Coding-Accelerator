@@ -13,6 +13,13 @@ def research_index(array, string):
         print(-1)
 
 
-argument_one = sys.argv[1:-1]  # Get all arguments except the last one
-argument_two = sys.argv[-1]
-research_index(argument_one, argument_two)
+try:
+    argument_one = sys.argv[1:-1]
+    argument_two = sys.argv[-1]
+    research_index(argument_one, argument_two)
+except ValueError:
+    print("error")
+    sys.exit()
+except IndexError:
+    print("error")
+    sys.exit()
