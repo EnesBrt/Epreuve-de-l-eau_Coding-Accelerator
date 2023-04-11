@@ -1,14 +1,14 @@
-# Tri à bulle
+# Tri par sélection
 
 import sys
 
 
-def bubble_sort(number):
+def selection_sort(number):
     array = [int(i) for i in number]
     for n in range(0, len(array)):
-        for x in range(0, len(array) - n - 1):
-            if array[x] > array[x + 1]:
-                array[x], array[x + 1] = array[x + 1], array[x]
+        for x in range(n, len(number)):
+            if array[n] > array[x]:
+                array[n], array[x] = array[x], array[n]
 
     numbers = " ".join(str(i) for i in array)
     print(numbers)
@@ -17,7 +17,7 @@ def bubble_sort(number):
 
 try:
     argument = sys.argv[1:]
-    bubble_sort(argument)
+    selection_sort(argument)
 except ValueError:
     print("error")
     sys.exit()
