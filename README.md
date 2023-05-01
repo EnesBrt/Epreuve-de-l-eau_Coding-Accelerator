@@ -1,4 +1,4 @@
-![Epreuve de l'eau - Coding Accelerator](https://cdn.pixabay.com/photo/2020/08/05/13/27/eco-5465470_1280.png)
+![Epreuve de l'eau - Coding Accelerator](https://cdn-icons-png.flaticon.com/512/426/426813.png?w=1380&t=st=1682950054~exp=1682950654~hmac=add743b6ce573bfa8175ab81d02efaccee583f20c6e182e675dbe469fae1ab2a)
 
 # Epreuve de l'eau - Coding Accelerator
 
